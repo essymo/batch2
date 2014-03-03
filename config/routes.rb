@@ -1,4 +1,5 @@
 Railsgirls::Application.routes.draw do
+  get "pages/about"
   resources :ideas
   root :to =>'ideas#index'
   # The priority is based upon order of creation: first created -> highest priority.
